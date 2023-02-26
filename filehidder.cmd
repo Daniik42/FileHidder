@@ -37,7 +37,7 @@ cls
 echo Password does not exist
 echo [1] Try Again [2] Create new password
 
-set /p input=Moznost:
+set /p input=:
 if %input% == 1 goto :heslo
 if %input% == 2 goto :noveheslo
 
@@ -73,7 +73,7 @@ cls
 echo PIN does not exist
 echo [1] Retry [2] create new PIN
 
-set /p input=Moznost:
+set /p input=:
 if %input% == 1 goto :pin
 if %input% == 2 goto :novypin
 
